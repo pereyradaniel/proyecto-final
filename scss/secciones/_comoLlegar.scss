@@ -1,0 +1,21 @@
+.mapa {
+  padding: 80px 20px 80px 20px;
+  .mapaContacto {
+    text-align: center;
+    margin-top: 20px;
+  }
+  ul {
+    list-style: none;
+    color: $oscuro;
+
+    a {
+      color: $oscuro;
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  .mapa {
+    padding: 70px 10px 30px 10px;
+  }
+}

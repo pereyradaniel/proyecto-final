@@ -1,0 +1,29 @@
+.formulario {
+  padding: 80px 80px 80px 80px;
+  background-image: linear-gradient(
+      hsla(180, 88%, 51%, 0.561),
+      rgba(0, 0, 0, 0.863)
+    ),
+    url(../img/fullsize/bg-formulario.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+
+  h3 {
+    color: $claros;
+  }
+  label {
+    color: $claros;
+  }
+  .btn-light {
+    background-color: $oscuro;
+    color: $claros;
+    width: 150px;
+  }
+}
+
+@media (max-width: 950px) {
+  .formulario {
+    padding: 80px 20px 30px 20px;
+  }
+}

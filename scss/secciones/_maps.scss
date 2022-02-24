@@ -1,0 +1,36 @@
+//MAPA
+$bg-card: (
+  card-1: #caf0f8,
+  card-2: #ade8f4,
+  card-3: #caf0f8,
+  card-4: #caf0f8, 
+  card-5: #90e0ef,
+  card-6: #00b4d8,
+);
+
+//BUCLE
+
+@each $fondo, $color in $bg-card {
+    .#{$fondo}{
+        background-color:$color;
+    }
+    
+}
+
+$bg-color: (
+  bg-1: #05F2F2,
+  bg-2: #f72585,
+  bg-3: #162C40,
+  bg-4: #4cc9f0, 
+  bg-5: #16f0f08f,
+  bg-6: white,
+);
+
+//BUCLE
+
+@each $fondo, $color in $bg-color {
+    .#{$fondo}{
+        background-color:$color;
+    }
+    
+}
