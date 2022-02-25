@@ -71,6 +71,10 @@
   .imagen1 {
     display: none; } }
 
+@media (max-width: 768px) {
+  #home {
+    padding-top: 10px; } }
+
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
   width: 100%;
   padding-right: 0;
@@ -146,7 +150,8 @@
 
 @media (max-width: 950px) {
   .gridNosotros {
-    padding: 80px 10px 30px 10px; } }
+    padding: 10px 10px 30px 10px;
+    margin: 0; } }
 
 .servicios {
   padding: 80px 30px 50px 30px; }
@@ -389,4 +394,4 @@ strong {
   background-color: white; }
 
 .demosRtc {
-  padding: 100px 0 100px 0; }
+  padding: 100px 20px 100px 20px; }
