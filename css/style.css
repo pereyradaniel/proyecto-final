@@ -404,6 +404,6 @@ strong {
   .comunicacion .row {
     align-items: center; }
   .comunicacion img {
-    width: 400px;
+    width: 80%;
     display: block;
-    margin: 10px auto; }
+    margin: 0 auto; }
