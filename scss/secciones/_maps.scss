@@ -1,13 +1,21 @@
 //MAPA
-$bg-card: (
-  card-1: #caf0f8,
-  card-2: #ade8f4,
-  card-3: #caf0f8,
-  card-4: #caf0f8, 
-  card-5: #90e0ef,
-  card-6: #00b4d8,
-);
+// $bg-card: (
+//   card-1: #caf0f8,
+//   card-2: #ade8f4,
+//   card-3: #caf0f8,
+//   card-4: #caf0f8, 
+//   card-5: #90e0ef,
+//   card-6: #00b4d8,
+// );
 
+$bg-card: (
+  card-1: #EDF250,
+  card-2: #41F2E1,
+  card-3: #c8ff00,
+  card-4: #F2B705, 
+  card-5: #f83838,
+  card-6: #DE38FD,
+);
 //BUCLE
 
 @each $fondo, $color in $bg-card {

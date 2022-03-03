@@ -4,7 +4,7 @@ $destinatario = 'pereyradaniell@gmail.com';
 $nombre = $_POST ['inputNombre'];
 $apellido = $_POST ['inputApellido'];
 $telefono = $_POST ['inputTel'];
-$email = $_POST ['inputMail'];
+$email = $_POST ['inputEmail'];
 
 $header = "Enviado desde el formulario de pedido de Demo";
 $mensajeCompleto = $mensaje ."\nAtentamente: " . $nombre;
