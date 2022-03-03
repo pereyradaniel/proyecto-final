@@ -75,12 +75,11 @@ strong {
 .card-title {
   font-weight: 400;
   text-decoration: underline;
-  color: $oscuro;
+  color: $claros;
 }
 
-.card-title-claro {
-  font-weight: 400;
-  text-decoration: underline;
+.card-text {
+  font-weight: 200;
   color: $claros;
 }
 

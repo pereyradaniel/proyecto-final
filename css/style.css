@@ -236,11 +236,10 @@ strong {
 .card-title {
   font-weight: 400;
   text-decoration: underline;
-  color: #0d0d0d; }
+  color: #f2f2f2; }
 
-.card-title-claro {
-  font-weight: 400;
-  text-decoration: underline;
+.card-text {
+  font-weight: 200;
   color: #f2f2f2; }
 
 .parrafoClaro {
