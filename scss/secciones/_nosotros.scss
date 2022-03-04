@@ -8,10 +8,7 @@
   grid-auto-flow: row;
   padding: 80px 10px;
   grid-template-areas: "gridNosotrosParrafo gridNosotrosVideo";
-  // background-image: linear-gradient(
-  //   hsl(180, 88%, 51%),
-  //   rgba(15, 112, 240, 0.9)
-  // );
+
   .gridNosotrosParrafo {
     grid-area: gridNosotrosParrafo;
     width: 90%;
