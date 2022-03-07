@@ -1,4 +1,4 @@
-h3{
+h3 {
   font-size: 1.4rem;
 }
 .tituloH1 {
@@ -29,7 +29,7 @@ h3{
   font-weight: 800;
   text-align: left;
 }
-.subtituloOscuro{
+.subtituloOscuro {
   color: $oscuro;
 }
 
@@ -41,7 +41,6 @@ h3{
   padding: 10px;
   color: #8c8c8b;
 }
-
 
 .parrafoResaltado {
   font-size: 1rem;
@@ -92,7 +91,6 @@ strong {
   color: rgb(255, 255, 255);
   background-color: #1bb1dc;
   border-color: #0dcaf0;
-
 }
 
 // comienzo de media query
@@ -106,13 +104,11 @@ strong {
   }
   .subtituloH2-2 {
     font-size: 1.5rem;
-    padding:15px;
+    padding: 15px;
     font-weight: 800;
     text-align: left;
   }
   .btn-info-2 {
     margin: 10px;
+  }
 }
-
-}
-

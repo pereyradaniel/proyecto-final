@@ -70,7 +70,13 @@
   padding-right: 0;
   padding-left: 20px; }
 
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
   width: 100%;
   padding-right: 0;
   padding-left: 0;
@@ -368,22 +374,22 @@ strong {
   opacity: 1; }
 
 .card-1 {
-  background-color: #72736F; }
+  background-color: #72736f; }
 
 .card-2 {
   background-color: #336872; }
 
 .card-3 {
-  background-color: #2E4159; }
+  background-color: #2e4159; }
 
 .card-4 {
   background-color: #4f5d75; }
 
 .card-5 {
-  background-color: #D9AB73; }
+  background-color: #d9ab73; }
 
 .card-6 {
-  background-color: #5F5DA6; }
+  background-color: #5f5da6; }
 
 .bg-1 {
   background-color: #dee2e6; }
@@ -392,7 +398,7 @@ strong {
   background-color: #f72585; }
 
 .bg-3 {
-  background-color: #162C40; }
+  background-color: #162c40; }
 
 .bg-4 {
   background-color: #4cc9f0; }

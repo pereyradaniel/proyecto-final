@@ -3,33 +3,32 @@
 //   card-1: #caf0f8,
 //   card-2: #ade8f4,
 //   card-3: #caf0f8,
-//   card-4: #caf0f8, 
+//   card-4: #caf0f8,
 //   card-5: #90e0ef,
 //   card-6: #00b4d8,
 // );
 
 $bg-card: (
-  card-1: #72736F,
+  card-1: #72736f,
   card-2: #336872,
-  card-3: #2E4159,
-  card-4: #4f5d75, 
-  card-5: #D9AB73,
-  card-6: #5F5DA6,
+  card-3: #2e4159,
+  card-4: #4f5d75,
+  card-5: #d9ab73,
+  card-6: #5f5da6,
 );
 //BUCLE
 
 @each $fondo, $color in $bg-card {
-    .#{$fondo}{
-        background-color:$color;
-    }
-    
+  .#{$fondo} {
+    background-color: $color;
+  }
 }
 
 $bg-color: (
   bg-1: #dee2e6,
   bg-2: #f72585,
-  bg-3: #162C40,
-  bg-4: #4cc9f0, 
+  bg-3: #162c40,
+  bg-4: #4cc9f0,
   bg-5: #16f0f08f,
   bg-6: white,
 );
@@ -37,8 +36,7 @@ $bg-color: (
 //BUCLE
 
 @each $fondo, $color in $bg-color {
-    .#{$fondo}{
-        background-color:$color;
-    }
-    
+  .#{$fondo} {
+    background-color: $color;
+  }
 }
