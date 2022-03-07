@@ -7,10 +7,18 @@
   .navbar {
     margin-bottom: 60px;
   }
+  .bg-nav {
+    background-color: #2e4159ef;
+   .nav-link{
+      color: white;
+    }
+    .nav-link.active{
+      color:rgb(39, 198, 247);
+    }
+  }
+
 }
-.bg-nav {
-  background-color: $amarillo;
-}
+
 
 .imagen1 {
   background-image: url(../img/fullsize/bg-image-1.jpg);
@@ -43,7 +51,7 @@
       position: absolute;
       top: 0;
       right: 0;
-      background-color:#d9d9d980;
+      background-color: #d9d9d980;
       height: 100%;
       line-height: 360px;
       padding-right: 10px;

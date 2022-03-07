@@ -1,0 +1,16 @@
+.preguntasFrecuentes {
+  padding: 50px 80px 50px 80px;
+  h2 {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+  }
+}
+
+//media query
+
+@media (max-width: 950px) {
+  .preguntasFrecuentes {
+    padding: 50px 10px 50px 10px;
+  }
+}

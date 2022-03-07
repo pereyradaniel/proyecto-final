@@ -1,16 +1,23 @@
-.demosRtc{
+.demosRtc {
+  .card-7 {
     padding: 100px 20px 100px 20px;
-    
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.842),
+        rgba(15, 25, 70, 0.856)
+      ),
+      url(../img/fullsize/bg-tecnologia-1.jpg);
+    background-size: cover;
+  }
 }
 
-.comunicacion{
-    justify-content: center;
-    .row {
-              align-items: center;
-    }
-    img{
-        width: 80%;
-        display: block;
-        margin: 0 auto;
-    }
+.comunicacion {
+  justify-content: center;
+  .row {
+    align-items: center;
+  }
+  img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
 }
