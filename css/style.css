@@ -492,6 +492,7 @@ strong {
     width: 125px; }
 
 .waFlotanteMovil a {
+  font-size: 25px;
   color: white;
   position: fixed;
   text-decoration: none;
@@ -528,6 +529,7 @@ strong {
     width: 125px; }
 
 .telFlotanteMovil a {
+  font-size: 25px;
   color: white;
   position: fixed;
   text-decoration: none;
@@ -564,6 +566,7 @@ strong {
     width: 125px; }
 
 .mailFlotanteMovil a {
+  font-size: 25px;
   color: white;
   position: fixed;
   text-decoration: none;
